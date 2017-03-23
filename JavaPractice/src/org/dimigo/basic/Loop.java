@@ -30,6 +30,7 @@ public class Loop {
             System.out.println("2. 공격력 감소");
             System.out.println("3. 캐릭터 설정");
             System.out.println("9. 종료");
+            System.out.println("메뉴 입력=> ");
             a = scanner.nextInt();
             switch (a) {
                 case 1:
