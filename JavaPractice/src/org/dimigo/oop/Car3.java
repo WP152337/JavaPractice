@@ -10,13 +10,14 @@ public class Car3 {
     private int maxSpeed;
     private int price ;
 
-    public Car3(String Company, String Model, String Color, int MaxSpeed, int Price){
-        this.company=Company;
-        this.model = Model;
-        this.color=Color;
-        this.maxSpeed=MaxSpeed;
-        this.price=Price;
+    public Car3(String company, String model, String color, int maxSpeed, int price) {
+        this.company = company;
+        this.model = model;
+        this.color = color;
+        this.maxSpeed = maxSpeed;
+        this.price = price;
     }
+
     public Car3(String Company, String Model, String Color, int MaxSpeed) {
         this(Company,Model,Color,MaxSpeed,0);
     }

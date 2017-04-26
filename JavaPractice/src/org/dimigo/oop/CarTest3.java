@@ -24,7 +24,7 @@ public class CarTest3 {
         System.out.println("가격 : "+String.format("%,d",car2.getPrice())+"원");
         System.out.println();
 
-        Car3 car3 = new Car3("삼성자동차","SM7","회색");
+        Car3 car3 = new Car3( "삼성자동차","SM7","회색");
 
         System.out.println("제조사명 : "+car3.getCompany());
         System.out.println("모델명 : "+car3.getModel());
