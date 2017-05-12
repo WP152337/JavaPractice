@@ -22,6 +22,5 @@ public class PersonTest2 {
         System.out.println(p);
         p.sayHello();
         p.sayBye();
-
     }
 }
