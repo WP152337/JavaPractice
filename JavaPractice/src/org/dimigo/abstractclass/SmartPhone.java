@@ -1,4 +1,4 @@
-package org.dimigo.inheritance;
+package org.dimigo.abstractclass;
 
 /**
  * Created by 12bra on 2017-05-11.
@@ -26,13 +26,12 @@ public abstract class SmartPhone {
 
     public abstract void pay();
 
-    public void useSpecialFunction(SmartPhone phone) {
-        if(phone == null) return;
-        if(phone instanceof IPhone){
-            ((IPhone) phone).useAirDrop();
+    public void useSpecialFunction() {
+        if(this instanceof IPhone){
+            ((IPhone) this).useAirDrop();
         }
-        else if(phone instanceof Galaxy){
-            ((Galaxy) phone).useWirelesscharging();
+        else if(this instanceof Galaxy){
+            ((Galaxy) this).useWirelesscharging();
         }
 
     }
