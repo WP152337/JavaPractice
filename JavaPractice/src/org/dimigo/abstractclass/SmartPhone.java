@@ -33,7 +33,6 @@ public abstract class SmartPhone {
         else if(this instanceof Galaxy){
             ((Galaxy) this).useWirelesscharging();
         }
-
     }
 
     @Override
