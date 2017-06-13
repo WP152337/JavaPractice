@@ -30,6 +30,6 @@ public class Music {
 
     @Override
     public String toString() {
-        return title + "(" + singer + ")";
+        return title + " (" + singer + ")";
     }
 }
